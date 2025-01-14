@@ -1,3 +1,102 @@
+/* styles.css */
+
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Gaya untuk header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+}
+
+/* Gaya untuk judul utama */
+h1 {
+    font-size: 2.5em;
+}
+
+/* Gaya untuk section */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Gaya untuk kategori produk */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.category {
+    flex: 1 1 30%; /* Mengatur lebar kategori */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s; /* Efek transisi saat hover */
+}
+
+.category:hover {
+    transform: scale(1.05); /* Membesar saat hover */
+}
+
+/* Gaya untuk gambar kategori */
+.category img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Gaya untuk tombol */
+button {
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+}
+
+/* Gaya untuk teks kategori */
+h3 {
+    margin: 10px 0;
+}
+
+/* Gaya untuk paragraf */
+p {
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
 .category {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -209,6 +308,8 @@
     transform: scale(1.05);
 }
 
+
+
 .category6 {
     background-color: white;
     padding: 15px;
@@ -291,3 +392,125 @@
     transform: scale(1.05);
 }
 
+.category8 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    -webkit-transition: transform 0.3s, box-shadow 0.3s;
+    -moz-transition: transform 0.3s, box-shadow 0.3s;
+    -ms-transition: transform 0.3s, box-shadow 0.3s;
+    -o-transition: transform 0.3s, box-shadow 0.3s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.category8 p{
+    color: rgb(0, 0, 0);
+}
+
+.category8 a{
+    text-decoration: none;
+    color: black;
+}
+
+.category8 img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.category8:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.category8:hover img {
+    transform: scale(1.05);
+}
+
+.category9 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    -webkit-transition: transform 0.3s, box-shadow 0.3s;
+    -moz-transition: transform 0.3s, box-shadow 0.3s;
+    -ms-transition: transform 0.3s, box-shadow 0.3s;
+    -o-transition: transform 0.3s, box-shadow 0.3s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.category9 p{
+    color: rgb(0, 0, 0);
+}
+
+.category9 a{
+    text-decoration: none;
+    color: black;
+}
+
+.category9 img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.category9:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.category9:hover img {
+    transform: scale(1.05);
+}
+
+.category10 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    -webkit-transition: transform 0.3s, box-shadow 0.3s;
+    -moz-transition: transform 0.3s, box-shadow 0.3s;
+    -ms-transition: transform 0.3s, box-shadow 0.3s;
+    -o-transition: transform 0.3s, box-shadow 0.3s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.category10 p{
+    color: rgb(0, 0, 0);
+}
+
+.category10 a{
+    text-decoration: none;
+    color: black;
+}
+
+.category10 img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.category10:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.category10:hover img {
+    transform: scale(1.05);
+}
