@@ -1,92 +1,92 @@
-/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
+.kata{
+    background-color:#ffffff;
+}
+
+
 body {
+    background : #000000;
+    color:#0056b3;
     font-family: Arial, sans-serif;
-    background-color: #59092e;
+    line-height: 1.6;
+    background-color:rgb(46, 109, 138);
+    background-image: url("Hanggar.jpeg");
+    background-size:cover;  
     color: #333;
 }
 
-/* Main container */
-main {
-    padding: 20px;
-}
 
-/* About section styles */
-.about {
-    background-color: #4f7cce;
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px 0;
 }
 
-/* Title styles */
+
+h1 {
+    text-align: center;
+    color:rgb(177, 219, 39);
+}
+
+
 .about-title {
     font-size: 2em;
-    margin-bottom: 10px;
-    color: #007BFF; /* Blue color for the title */
-}
-
-/* Description styles */
-.about-description {
-    font-size: 1.2em;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-/* Subtitle styles */
+
 .about-subtitle {
     font-size: 1.5em;
     margin-top: 20px;
-    color: #0056b3; /* Darker blue for subtitles */
+    margin-bottom: 10px;
+    color: #007BFF;
 }
 
-/* Mission list styles */
-.about-mission {
-    margin: 10px 0 20px 20px;
-}
 
-/* Values list styles */
-.about-values {
-    margin: 10px 0 20px 20px;
-}
-
-/* Team description styles */
-.about-team {
-    margin: 10px 0 20px;
-}
-
-/* Contact styles */
+.about-description,
+.about-vision,
+.about-team,
 .about-contact {
-    margin: 10px 0 20px;
+    margin-bottom: 15px;
 }
 
-/* Link styles */
+/* Gaya untuk daftar misi */
+.about-mission,
+.about-values {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Gaya untuk tautan */
 a {
-    color: #007BFF; /* Blue color for links */
-    text-decoration: none; /* Remove underline */
+    color: #007BFF;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
-/* Responsive styles */
-@media (max-width: 600px) {
-    .about-title {
-        font-size: 1.5em;
-    }
+/* Gaya untuk tombol */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
-    .about-subtitle {
-        font-size: 1.2em;
-    }
-
-    .about-description, .about-team, .about-contact {
-        font-size: 1em;
-    }
+button:hover {
+    background-color: #0056b3;
 }
